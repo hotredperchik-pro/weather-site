@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Погода на почту</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <div class="container">
+        <h1>🌤️ Погода на почту</h1>
+        <p class="subtitle">Подпишитесь на ежедневный прогноз погоды</p>
+
+        <form id="subscribeForm">
+            <div class="form-group">
+                <label for="email">Ваш email</label>
+                <input type="email" id="email" placeholder="example@mail.ru" required />
+            </div>
+
+            <div class="form-group">
+                <label for="city">Город</label>
+                <input type="text" id="city" placeholder="Москва" required />
+            </div>
+
+            <button type="submit">Подписаться</button>
+        </form>
+
+        <div id="message" class="message"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
