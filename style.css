@@ -105,7 +105,6 @@ button:active {
     color: #d63031;
 }
 
-/* Адаптивность (мобильные устройства) */
 @media (max-width: 500px) {
     .container {
         padding: 28px 20px;
